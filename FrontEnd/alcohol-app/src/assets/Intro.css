@@ -1,0 +1,68 @@
+.Intro{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction:row;
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+}
+
+.find-password > a{
+    text-decoration-line: none;
+    color:black;
+}
+
+.register > a{
+    text-decoration-line: none;
+    color:black;
+}
+
+.images{
+    background-image: url("../../../../../29523cc22fcc0.png");
+    height:80vh;
+    width:50%;
+    margin-left:50px;
+    justify-content:left;
+    align-items: left;
+}
+
+.id{
+    position:absolute;
+    margin-left:870px;
+    margin-bottom:100px;
+}
+
+.form-control{
+    width:300px;
+    font-size:20px;
+}
+
+.password{
+    position:absolute;
+    margin-left:870px;
+    margin-bottom:10px;
+}
+
+.login-btn{
+    position:absolute;
+    margin-left:1080px;
+    margin-bottom:60px;
+}
+
+.btn{
+    width:100px;
+    height:70px;
+}
+
+.find-password{
+    position:absolute;
+    margin-left:870px;
+    margin-top:70px;
+}
+
+.register{
+    position:absolute;
+    margin-left:970px;
+    margin-top:70px;
+}

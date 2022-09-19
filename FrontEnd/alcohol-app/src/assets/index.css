@@ -1,0 +1,45 @@
+body {
+  margin:0px;
+  padding:0px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+@font-face {
+  font-family: 'title-font';
+  src: url('../fonts/ROEHOE-CHAN.ttf');
+}
+
+header > a{
+  text-decoration-line: none;
+  color:black;
+}
+
+header {
+  height: 80px;
+  padding: 1rem;
+  color: black;
+  background:#eee;
+  font-weight: bold;
+  display: flex;
+  font-size: 80px;
+  justify-content: center;
+  align-items: center;
+  font-family: 'title-font';
+}
+
+footer{
+  background:#eee;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height:50px;
+}
