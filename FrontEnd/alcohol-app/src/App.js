@@ -4,12 +4,14 @@ import './assets/App.css'
 import IntroPage from './components/IntroPage';
 import FindPassword from './components/FindPassword';
 import RegisterPage from './components/RegisterPage';
+import Main from './components/Main'
 function App() {
   return (
     <div class='App'>
       <BrowserRouter>
           <Routes>
             <Route path="/" element={<IntroPage />} > </Route>
+            <Route path="/main" element={<Main/>}></Route>
             <Route path="/findPassword" element={<FindPassword />}></Route>
             <Route path="/register" element={<RegisterPage />}></Route>
           </Routes>
