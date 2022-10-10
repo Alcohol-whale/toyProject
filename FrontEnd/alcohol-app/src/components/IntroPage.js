@@ -4,8 +4,9 @@ import LoginUser from './LoginUser'
 import axios from 'axios'
 import '../assets/Intro.css'
 import Introheader from './Introheader';
+import Footer from './Footer';
 function IntroPage(props) {
-  //  const dispatch = useDispatch();
+    const dispatch = useDispatch();
 
     const [Email, setEmail] = React.useState("");
     const [Password, setPassword] = React.useState("");
@@ -17,7 +18,7 @@ function IntroPage(props) {
     const onPasswordHandler = (event) => {
         setPassword(event.currentTarget.value);
     }
-/*
+
     const onSubmitHandler = (event) => {
         let body = {
             email: Email,
@@ -33,7 +34,7 @@ function IntroPage(props) {
                     alert("Error");
                 }
             })
-    }*/
+    }
 
     return (
         <div class='Intro'>
@@ -50,13 +51,14 @@ function IntroPage(props) {
                     </div>
                 </div>
                 <div class="login-btn">
-                    <button type="button" class="btn btn-primary" /*onClick={.onSubmitHandler}*/>로그인</button>
+                    <button type="button" class="btn btn-primary" onClick={onSubmitHandler} style={{width:'100px', height:'70px'}}>로그인</button>
                 </div>
                 <div class="regi_box">
                     <div class="find-password"><a href="/findPassword"> 비밀번호 찾기 </a></div>
                     <div class="register"><a href="/register">회원가입</a></div>
                 </div>
             </div>
+            <Footer/>
         </div>
     );
 }

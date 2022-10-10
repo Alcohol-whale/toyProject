@@ -1,0 +1,28 @@
+.outline{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width:100%;
+    height:100vh;
+}
+
+
+.form-wrap{
+    border:1px solid gray;
+    border-radius: 20px 20px;
+    width:500px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:65vh;
+}
+
+.id-box{
+    display:flex;
+    flex-direction: row;
+    width:300px;
+    height:auto;
+    justify-content: space-between;
+}
